@@ -8,13 +8,13 @@ SET NOCOUNT ON
 
   CREATE TABLE #Resultados 
   ( 
-     nomcolumna NVARCHAR(370), 
-     valcolumna NVARCHAR(3630) 
+     nomcolumna NVARCHAR(400), 
+     valcolumna NVARCHAR(4000) 
   ) 
 
   DECLARE @Tabla      NVARCHAR(256), 
           @NomColumna NVARCHAR(128), 
-          @Buscar2    NVARCHAR(110)
+          @Buscar2    NVARCHAR(128)
 
   SET @Tabla = '' 
   SET @Buscar2 = Quotename('%' + @Buscar + '%', '''') 
