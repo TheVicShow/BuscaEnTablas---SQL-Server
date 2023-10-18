@@ -1,3 +1,7 @@
+/*
+  Updated By: Victor Hugo Dominguez Perez
+*/
+
 CREATE PROCEDURE Buscaentablas
 (
   @Buscar NVARCHAR(100)
